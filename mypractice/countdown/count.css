@@ -1,0 +1,48 @@
+img{
+    width: 600px;
+    margin-right: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+ 
+}
+
+.info{
+    width: 600px;
+}
+
+#count{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    text-align: center;
+    
+}
+#count div{
+    color: aliceblue;
+    background-color: rgb(40, 40, 133);
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+}
+.info:first{
+    color: rgb(110, 41, 41);
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    margin-bottom: 30px;
+}

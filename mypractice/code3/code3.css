@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+img::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f10e";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transform: translateY(25%);
+    background: var(--clr-primary-5);
+    color: var(--clr-white);
+  }
+
+  .img-container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--clr-primary-5);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+  }
+
+.container{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+
+}
+h1{
+    margin-top: 130px;
+}
+.star{
+  background-color: rgb(131, 216, 216);
+  width: 100px;
+  height: 8px;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.rev{
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.rev:hover{
+  box-shadow:2px 3px 26px black;
+  
+}
+button{
+    margin-top: 30px;
+}
+
+#job{
+    color: rgb(0, 132, 255);
+}
+#prev{
+    border: 0px solid white;
+    font-weight: 900;
+    color: rgb(0, 136, 255);
+    cursor: pointer;
+}
+#next{
+    border: 0px solid white;
+    font-weight: 900;
+    color: rgb(0, 136, 255);
+    cursor: pointer;
+}
+
+#surprice{
+  
+    border: 50px;
+    color: rgb(0, 136, 255);
+    cursor: pointer;
+}
